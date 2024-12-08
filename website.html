@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aptitude Innovations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .header {
+                background-color: #4682B4; /* Steel Blue */
+                color: white;
+                text-align: center;
+                padding: 1em;
+            }
+            .navbar {
+                display: flex;
+                justify-content: space-around;
+                background-color: #333; /* Black Gray */
+                padding: 1em;
+            }
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 0.5em 1em;
+            }
+            .navbar a:hover {
+                background-color: #575757;
+                border-radius: 5px;
+            }
+            .divider {
+                display: block;
+                margin: 1em 0;
+            }
+            .footer {
+                background-color: #2F4F4F; /* Black Gray */
+                color: white;
+                text-align: left;
+                padding: 1em;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 1em;
+                padding: 1em;
+            }
+            @media (min-width: 600px) {
+                .container {
+                    grid-template-columns: 1fr 1fr;
+                }
+                .navbar {
+                    justify-content: space-between;
+                }
+            }
+            .domain {
+                padding: 1em;
+                background-color: #f4f4f4; /* Light Gray */
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .domain1 { background-color: #B0C4DE; } /* Light Steel Blue */
+            .domain2 { background-color: #FFB6C1; } /* Light Pink */
+            .domain3 { background-color: #98FB98; } /* Pale Green */
+            .domain4 { background-color: #FFD700; } /* Gold */
+            .domain5 { background-color: #FF6347; } /* Tomato */
+            .domain6 { background-color: #87CEFA; } /* Light Sky Blue */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4; /* Light Gray */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Aptitude Innovations</h1>
+        </div>
+        <div class="navbar">
+            <a href="#SAGE">SAGE</a>
+            <a href="#LIFE">Learning Improves Future Endeavours [LIFE]</a>
+            <a href="#AI">Algorithmic Intelligence [AI]</a>
+            <a href="#FIRE">Fast Interactive Reading Engine [FIRE]</a>
+            <a href="#AIR">Advanced Intelligence Research [AIR]</a>
+            <a href="#TIME">Time Improvement Management Engine [TIME]</a>
+        </div>
+        <div class="divider"></div>
+        <div class="container">
+            <div id="SAGE" class="domain domain1">
+                <h2>SAGE Learning Portal</h2>
+                <p>An Adaptive Intelligence powered learning application, with the goal of proliferating education and making it accessible.</p>
+            </div>
+            <div id="LIFE" class="domain domain2">
+                <h2>Learning Improved Future Endeavours [LIFE]</h2>
+                <p>Why one should pursue a life of learning, and the beneits of learning.</p>
+            </div>
+            <div id="AI" class="domain domain3">
+                <h2>Algorithmic Intelligence [AI]</h2>
+                <p>Learning Mathematics from bottom up, to utilise concepts for a higher level.</p>
+            </div>
+            <div id="FIRE" class="domain domain4">
+                <h2>Fast Interactive Reading Engine [FIRE]</h2>
+                <p>A rapid engine that can read, compress, encode and decode data for capable analyses.</p>
+            </div>
+            <div id="AIR" class="domain domain5">
+                <h2>Advanced Intelligence Research [AIR]</h2>
+                <p>Research into Advanced Intelligence technologies.</p>
+            </div>
+            <div id="TIME" class="domain domain6">
+                <h2>Time Improvement Management Engine [TIME]</h2>
+                <p>Advanced scheduling and calendaring for productivity.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Contact us at: admin@apt-it.com</p>
+        </div>
+    </body>
+</html>
