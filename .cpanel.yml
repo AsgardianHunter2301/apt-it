@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    # Define the path where the files should be deployed
+    - export DEPLOYPATH=/home/example/public_html/
+
+    # Copy the entire images directory and its contents
+    - /bin/cp -R images $DEPLOYPATH
+
+    # You can add more tasks if needed
+    # Example: Clear cache, set file permissions, etc.
+    # - chmod -R 755 $DEPLOYPATH/images
